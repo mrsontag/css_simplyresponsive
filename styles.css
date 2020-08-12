@@ -1,0 +1,53 @@
+h1 {
+    background-color:#b3b3b3;
+    border: 3px solid ##d1c8af;
+    padding: 15px;
+    margin:10px;
+}
+p:first-of-type {
+    background-color: #ccc;
+    border: 3px solid ##d1c8af;
+    padding: 15px;
+    min-height: 100px;
+}
+
+p {
+    background-color: #ffff99;
+    padding: 15px;
+    margin: 10px;
+}
+@media only screen and (max-width:480px) {
+    .wide { 
+        display: none;
+    }
+    .medium {
+        display: none;
+    }
+    .narrow {
+        display: block;
+    }
+}
+@media only screen and (min-width:481px) {
+    .wide { 
+        display: none;
+        
+    }
+    .medium {
+        display: block;
+    }
+    .narrow {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .wide { 
+        display: block;
+    }
+    .medium {
+        display: none;
+    }
+    .narrow {
+        display: none;
+    }
+}
